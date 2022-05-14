@@ -1,9 +1,10 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import { ContextProvider } from './Context';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+test('renders "Fun with AI"', () => {
+  render(<ContextProvider><App /></ContextProvider>);
+  const linkElement = screen.getByText(/Fun with AI/i);
   expect(linkElement).toBeInTheDocument();
 });

@@ -1,10 +1,46 @@
-# Getting Started with Create React App
+# Project: Fun with AI - Shopify Internship Front-end Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This application allows the user to submit a prompt to utilize OpenAI's powerful AI tool to create a tailored response.
 
-## Available Scripts
+Technologies: React, Typescript, OpenAI API
+
+### Challenges
+1. useRef
+2. OpenAI response
+
+### Future Features
+
+
+## Table of Contents
+1. Components
+a) Prompt Section
+b) Responses Section
+#### App
+#### Context
+
+## Install & Run the Project
+### Run Locally
+
+
+Provide a step-by-step description of how to get the development environment set and running.
+Provide instructions and examples so users/contributors can use the project. This will make it easy for them in case they encounter a problem – they will always have a place to reference what is expected.
+
+You can also make use of visual aids by including materials like screenshots to show examples of the running project and also the structure and design principles used in your project.
+
+Also if your project will require authentication like passwords or usernames, this is a good section to include the credentials.
+
+## How to Use Project
+
+use API key
 
 In the project directory, you can run:
+
+## Install & Run the Project
+
+### `npm install`
+
+-install node, react, typescript, uses open ai
 
 ### `npm start`
 
@@ -14,11 +50,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -27,20 +58,4 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
